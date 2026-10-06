@@ -10,24 +10,20 @@ A modern student community platform built to connect students, communities, and 
 </p>
 
 
-Dashboard
- 
-Screenshot setup: place your screenshots in docs/screenshots/ using these filenames:
-- register.png
-- dashboard.png
-
 ✨ Features
 Authentication & Profiles
 - Student registration and login with Supabase Authentication
 - Automatic profile creation after registration
 - Student profile with name, username, college, department, year, bio, skills, and social links
 - Profile image and cover image support
+  
 Social Feed
 - Create and view posts
 - Like, comment, reply, share, and save posts
 - Post media support
 - Poll support
 - Real-time notifications for social activity
+
 Communities
 - Create campus communities
 - Join and leave communities
@@ -36,6 +32,7 @@ Communities
 - Announcements
 - Questions & answers
 - Community events
+  
 Messaging
 - One-to-one conversations
 - Real-time message delivery
@@ -43,6 +40,7 @@ Messaging
 - Read/unread message state
 - Message edit, delete, and reply
 - File and media attachments
+  
 Notifications
 - Follow notifications
 - Like notifications
@@ -51,14 +49,17 @@ Notifications
 - Message notifications
 - Real-time notification updates
 - Mark one or all notifications as read
+  
 Events
 - Campus/community event management and discovery
 - Event information connected with communities
+  
 Backend & Data
 - Supabase PostgreSQL database
 - Row Level Security (RLS)
 - Supabase Storage for media and documents
 - Realtime database subscriptions
+  
 🛠️ Tech Stack
 Layer	Technology
 Frontend	React
@@ -141,11 +142,14 @@ Planned areas for future versions include:
 - AI-powered campus assistance
 - Live digital campus capabilities
 - Further production hardening and deployment improvements
+  
 👨‍💻 Author
 Umakant Sah
 Computer Science & Engineering Student
 CampusConnect is developed as a portfolio project focused on building real-world software engineering skills and a practical student-focused product.
+
 📄 License
 This project is currently intended as a personal/portfolio project. Add a formal open-source license when you are ready to define how others may use, modify, and distribute the code.
+
 ⭐ Support the Project
 If you find CampusConnect interesting, consider giving the repository a ⭐ on GitHub and following the project as it evolves.
