@@ -1,0 +1,55 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full Page */
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f8ff;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Form Elements */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* Links */
+a {
+  color: inherit;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
+
+/* Remove default input outline */
+input,
+select,
+textarea {
+  outline: none;
+}

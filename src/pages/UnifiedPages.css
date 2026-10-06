@@ -1,0 +1,134 @@
+.unified-dark-page {
+  min-height: 100vh;
+  background: #0f141b !important;
+  color: #f3f4f6;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.unified-dark-page > div {
+  color: #f3f4f6;
+}
+
+.unified-dark-page [style*="background: white"],
+.unified-dark-page [style*="background: #ffffff"],
+.unified-dark-page [style*="background: #f8fafc"],
+.unified-dark-page [style*="background: #fff"] {
+  background: #171e27 !important;
+  color: #f3f4f6 !important;
+}
+
+.unified-dark-page [style*="background: #dbeafe"],
+.unified-dark-page [style*="background: #eef2ff"],
+.unified-dark-page [style*="background: #eff6ff"],
+.unified-dark-page [style*="background: #f1f5f9"] {
+  background: #1b232d !important;
+  color: #a1aab8 !important;
+}
+
+.unified-dark-page [style*="border: 1px solid #"],
+.unified-dark-page [style*="borderBottom: 1px solid #"],
+.unified-dark-page [style*="borderRight: 1px solid #"] {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.unified-dark-page [style*="color: #0f172a"],
+.unified-dark-page [style*="color: #111827"],
+.unified-dark-page [style*="color: #1f2937"],
+.unified-dark-page [style*="color: #334155"] {
+  color: #f3f4f6 !important;
+}
+
+.unified-dark-page [style*="color: #475569"],
+.unified-dark-page [style*="color: #64748b"],
+.unified-dark-page [style*="color: #94a3b8"] {
+  color: #8a94a3 !important;
+}
+
+.unified-dark-page input,
+.unified-dark-page textarea {
+  background: #1a222c !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  color: #f3f4f6 !important;
+}
+
+.unified-dark-page input::placeholder,
+.unified-dark-page textarea::placeholder {
+  color: #8a94a3 !important;
+}
+
+.unified-dark-page input:focus,
+.unified-dark-page textarea:focus {
+  outline: none;
+  border-color: #22c55e !important;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1) !important;
+}
+
+.unified-dark-page button {
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
+}
+
+.unified-dark-page button[style*="background: #2563eb"],
+.unified-dark-page button[style*="background: #16a34a"] {
+  background: #22c55e !important;
+  border-color: #22c55e !important;
+  color: #06100a !important;
+}
+
+.unified-dark-page button[style*="background: #2563eb"]:hover,
+.unified-dark-page button[style*="background: #16a34a"]:hover {
+  background: #16a34a !important;
+}
+
+.unified-dark-page button[style*="background: white"]:hover,
+.unified-dark-page button[style*="background: #ffffff"]:hover {
+  background: #202a35 !important;
+}
+
+.unified-dark-page a {
+  color: #22c55e;
+}
+
+.unified-dark-page h1,
+.unified-dark-page h2,
+.unified-dark-page h3,
+.unified-dark-page strong {
+  color: #f3f4f6;
+}
+
+.unified-dark-page .community-card,
+.unified-dark-page .event-card,
+.unified-dark-page .notification-row {
+  background: #171e27;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.unified-dark-page .messages-shell {
+  background: #0f141b !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.unified-dark-page .messages-shell > div:first-child {
+  background: #11161e !important;
+}
+
+.unified-dark-page [style*="background: #fee2e2"],
+.unified-dark-page [style*="background: #fff1f2"],
+.unified-dark-page [style*="background: #fff7ed"] {
+  background: rgba(239, 68, 68, 0.1) !important;
+  color: #fca5a5 !important;
+  border-color: rgba(239, 68, 68, 0.2) !important;
+}
+
+.unified-dark-page [style*="background: #22c55e"] {
+  background: #22c55e !important;
+}
+
+@media (max-width: 700px) {
+  .unified-dark-page {
+    padding: 20px 14px !important;
+  }
+
+  .unified-dark-page > div {
+    max-width: 100% !important;
+  }
+}
